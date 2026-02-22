@@ -332,6 +332,10 @@ while char_pressed != ['q'] and True:
         display.flip()
 
 
+if char_pressed == ['q']:
+    display.close()
+    core.quit()
+
 core.wait(5) #wait 7 seconds
 winningsVariableText.text = "Thanks for Participating"
 deckDTitleText.text = participantA.getWinnings()
