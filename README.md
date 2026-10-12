@@ -1,2 +1,0 @@
-# igt
-IOWA gambling test
